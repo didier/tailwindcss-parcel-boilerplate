@@ -1,2 +1,3 @@
-# tailwindcss-parcel-boilerplate
-A bare-simple TailwindCSS Parcel boilerplate.
+# TailwindCSS + Parcel + PurgeCSS Starter Project
+
+A bare-simple [Tailwind CSS](https://tailwindcss.com) + [ParcelJS](https://parceljs.org) boilerplate. Uses [PurgeCSS](https://www.purgecss.com/) in production builds.
