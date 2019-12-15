@@ -1,3 +1,6 @@
+# Annoying file structure thing
+.DS_Store
+
 # Logs
 logs
 *.log
