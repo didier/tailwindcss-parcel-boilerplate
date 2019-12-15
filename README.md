@@ -12,11 +12,11 @@ A bare-simple [Tailwind CSS](https://tailwindcss.com) + [ParcelJS](https://parce
 $ git clone https://github.com/didiercatz/tailwindcss-parcel-boilerplate.git <your-project-name>
 ```
 
-NOTE: This `README.md` and this project's `package.json` are also cloned into your repo—you should change them to fit your project's needs.
+NOTE: This `README.md` and this project's `package.json` are also cloned into your repo. You should change them to fit your project's needs.
 
-### Install (dev)Dependencies.
+### Install dependencies.
 
-Installs PostCSS, TailwindCSS, Autoprefixer, PurgeCSS and Parcel (local)
+Installs PostCSS, TailwindCSS, Autoprefixer, PurgeCSS and Parcel (local) as `devDependencies`.
 
 ```
 $ npm i
