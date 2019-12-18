@@ -8,7 +8,7 @@ A bare-simple [Tailwind CSS](https://tailwindcss.com) + [ParcelJS](https://parce
 
 ### Clone or download the repo.
 
-```
+```bash
 $ npx degit https://github.com/didiercatz/tailwindcss-parcel-boilerplate.git <your-project-name>
 ```
 
@@ -18,7 +18,7 @@ NOTE: This `README.md` and this project's `package.json` are also cloned into yo
 
 Installs PostCSS, TailwindCSS, Autoprefixer, PurgeCSS and Parcel (local) as `devDependencies`.
 
-```
+```bash
 $ npm i
 ```
 
@@ -28,7 +28,7 @@ Then just open your favourite code editor, run `npm run dev` and _voilà!_
 
 This projects includes a nice streamlined production flow. You can run either `npm run build` or `npm run prod` to run a production build. Files will end up in `/dist`.
 
-```
+```bash
 $ npm run build
 ```
 
