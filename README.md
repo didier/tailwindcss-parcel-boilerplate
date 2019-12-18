@@ -9,7 +9,7 @@ A bare-simple [Tailwind CSS](https://tailwindcss.com) + [ParcelJS](https://parce
 ### Clone or download the repo.
 
 ```bash
-$ npx degit https://github.com/didiercatz/tailwindcss-parcel-boilerplate.git <your-project-name>
+$ npx degit https://github.com/didiercatz/tailwindcss-parcel-boilerplate <your-project-name>
 ```
 
 NOTE: This `README.md` and this project's `package.json` are also cloned into your repo. You should change them to fit your project's needs.
