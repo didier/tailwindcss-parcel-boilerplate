@@ -1,6 +1,6 @@
 {
   "name": "tailwindcss-parcel-boilerplate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A bare-simple TailwindCSS Parcel boilerplate.",
   "scripts": {
     "init": "rm -rf .git LICENSE README.md && npm i",
