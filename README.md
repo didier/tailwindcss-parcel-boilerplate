@@ -34,4 +34,4 @@ $ npm run build
 
 ## Contributing
 
-I'm always open for new ideas. If there's anything you'd like to see added to this project or if you findn a bug, don't hesistate to [submit an issue](https://github.com/didiercatz/tailwindcss-parcel-boilerplate/issues/new) or [send a pull request](https://github.com/didiercatz/tailwindcss-parcel-boilerplate/pull/new/master).
+I'm always open for new ideas. If there's anything you'd like to see added to this project or if you find a bug, don't hesitate to [submit an issue](https://github.com/didiercatz/tailwindcss-parcel-boilerplate/issues/new) or [send a pull request](https://github.com/didiercatz/tailwindcss-parcel-boilerplate/pull/new/master).
