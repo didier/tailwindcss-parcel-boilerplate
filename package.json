@@ -9,6 +9,7 @@
     "prod": "npx parcel build src/index.html",
     "build": "npx parcel build src/index.html"
   },
+  "bin": "./index.js",
   "repository": "https://github.com/didiercatz/tailwindcss-parcel-boilerplate",
   "author": "Didier Catz <info@didiercatz.com>",
   "license": "MIT",
