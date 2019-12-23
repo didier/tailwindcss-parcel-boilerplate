@@ -17,7 +17,7 @@ const config = `const purgecss = require('@fullhuman/postcss-purgecss')({
   ],
 
   // Include any special characters you're using in this regular expression
-  defaultExtractor: content => content.match(/[w-/:]+(?<!:)/g) || []
+  defaultExtractor: content => content.match(/[\\w-/:]+(?<!:)/g) || []
 })
 
 module.exports = {
@@ -39,7 +39,7 @@ const html = `<!DOCTYPE html>
 </head>
 
 <body>
-  <h1 class="text-4xl text-center my-16 text-grey font-sans">Greetings, comrade.</h1>
+    <h1 class = "text-4xl text-center my-16 text-gray-400 font-bold font-sans" > Greetings, comrade. < /h1>
 </body>
 
 </html>`
@@ -65,6 +65,7 @@ const commands = 'npm i -D @fullhuman/postcss-purgecss autoprefixer parcel-bundl
 function dependencies() {
   console.log('📦  Installing dependencies from NPM... this will take a bit.');
   console.log('✌ Configuring files in the meantime.');
+
   exec(commands, (err) => {
     if (err) {
       throw err
@@ -160,11 +161,8 @@ function treePkg() {
 }
 
 async function install() {
-  // for (let part of order) {
-  //   await part
-  // }
-  await dependencies()
-  // await postcss()
+  dependencies()
+
   await setTimeout(async () => {
     postcss()
   }, 0)
