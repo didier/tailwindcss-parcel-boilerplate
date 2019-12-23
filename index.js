@@ -39,7 +39,7 @@ const html = `<!DOCTYPE html>
 </head>
 
 <body>
-    <h1 class = "text-4xl text-center my-16 text-gray-400 font-bold font-sans" > Greetings, comrade. < /h1>
+    <h1 class="text-4xl text-center my-16 text-gray-400 font-bold font-sans">Greetings, comrade.</h1>
 </body>
 
 </html>`
