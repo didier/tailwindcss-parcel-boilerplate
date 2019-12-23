@@ -6,23 +6,13 @@ A bare-simple [Tailwind CSS](https://tailwindcss.com) + [ParcelJS](https://parce
 
 ## Getting started
 
-### Clone or download the repo.
+### Run build script using `npx`
 
 ```bash
-$ npx degit https://github.com/didiercatz/tailwindcss-parcel-boilerplate <your-project-name>
+$ npx tailwindcss-parcel-boilerplate
 ```
 
-NOTE: This `README.md` and this project's `package.json` are also cloned into your repo. You should change them to fit your project's needs.
-
-### Install dependencies.
-
-Installs PostCSS, TailwindCSS, Autoprefixer, PurgeCSS and Parcel (local) as `devDependencies`.
-
-```bash
-$ npm i
-```
-
-Then just open your favourite code editor, run `npm run dev` and _voilà!_
+Then just run `npm run dev`, open your favourite text editor and _voilà!_
 
 ## Building for production
 
