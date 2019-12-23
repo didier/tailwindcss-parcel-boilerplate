@@ -158,7 +158,7 @@ function treeCSS() {
 function treeJS() {
   console.log('  ↳ Creating index.js...');
 
-  fs.writeFile('src/assets/js/index.js', css, (err) => {
+  fs.writeFile('src/assets/js/index.js', '', (err) => {
     if (err) {
       throw err
     } else {}

@@ -6,7 +6,13 @@ A bare-simple [Tailwind CSS](https://tailwindcss.com) + [ParcelJS](https://parce
 
 ## Getting started
 
-### Run build script using `npx`
+### Create your project folder.
+
+```bash
+$ mkdir <my-project> && cd <my-project>
+```
+
+### Run build script using `npx`.
 
 ```bash
 $ npx tailwindcss-parcel-boilerplate
