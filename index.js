@@ -161,11 +161,15 @@ function treePkg() {
 }
 
 async function install() {
-  dependencies()
+  treePkg()
+
+  await setTimeout(async () => {
+    dependencies()
+  }, 0)
 
   await setTimeout(async () => {
     postcss()
-  }, 0)
+  }, 10)
 
   await setTimeout(async () => {
     treeDirs()
