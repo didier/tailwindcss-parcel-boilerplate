@@ -1,9 +1,19 @@
 {
   "name": "tailwindcss-parcel-boilerplate",
   "version": "1.1.6",
-  "description": "A bare-simple TailwindCSS Parcel boilerplate.",
+  "description": "A bare-simple TailwindCSS Parcel boilerplate that Just Works™",
   "bin": "./index.js",
   "repository": "https://github.com/didiercatz/tailwindcss-parcel-boilerplate",
   "author": "Didier Catz <info@didiercatz.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "keywords": [
+    "tailwind",
+    "css",
+    "tailwindcss",
+    "parcel",
+    "starter",
+    "boilerplate",
+    "build",
+    "purgecss"
+  ]
 }
