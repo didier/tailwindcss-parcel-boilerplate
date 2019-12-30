@@ -2,6 +2,8 @@
 
 A bare-simple [Tailwind CSS](https://tailwindcss.com) + [ParcelJS](https://parceljs.org) boilerplate. Uses [PurgeCSS](https://www.purgecss.com/) in production builds.
 
+If you want to read a more detailed explanation of TailwindCSS, check out my [dev.to post](https://dev.to/didiercatz/getting-started-with-tailwindcss-in-seconds-8p2).
+
 ![TailwindCSS + Parcel](https://huisje83.nl/tw-p.png)
 
 ## Getting started
