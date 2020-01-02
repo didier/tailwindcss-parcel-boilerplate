@@ -22,6 +22,8 @@ $ npx tailwindcss-parcel-boilerplate
 
 Then just run `npm run dev`, open your favourite text editor and _voilà!_
 
+#### If you only want to install the dependencies, run `npx tailwindcss-parcel-boilerplate deps`
+
 ## Building for production
 
 This projects includes a nice streamlined production flow. You can run either `npm run build` or `npm run prod` to run a production build. Files will end up in `/dist`.
