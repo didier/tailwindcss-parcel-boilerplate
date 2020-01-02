@@ -1,7 +1,10 @@
 {
   "name": "tailwindcss-parcel-boilerplate",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "description": "A bare-simple TailwindCSS Parcel boilerplate that Just Works™",
+  "scripts": {
+    "deps": "npm i -D @fullhuman/postcss-purgecss autoprefixer parcel-bundler postcss tailwindcss"
+  },
   "bin": "./index.js",
   "repository": "https://github.com/didiercatz/tailwindcss-parcel-boilerplate",
   "author": "Didier Catz <info@didiercatz.com>",
@@ -15,5 +18,12 @@
     "boilerplate",
     "build",
     "purgecss"
-  ]
+  ],
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^1.3.0",
+    "autoprefixer": "^9.7.3",
+    "parcel-bundler": "^1.12.4",
+    "postcss": "^7.0.26",
+    "tailwindcss": "^1.1.4"
+  }
 }
