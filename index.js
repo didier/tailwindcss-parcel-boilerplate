@@ -54,8 +54,8 @@ const css = `/* purgecss start ignore */
 const json = `{
   "scripts": {
     "dev": "npx parcel src/index.html",
-    "prod": "npx parcel build src/index.html",
-    "build": "npx parcel build src/index.html"
+    "prod": "npx parcel build src/index.html --public-url='./'",
+    "build": "npx parcel build src/index.html --public-url='./'"
   }
 }
 `
@@ -142,7 +142,7 @@ function treeJS() {
   fs.writeFile('src/assets/js/index.js', '', (err) => {
     if (err) {
       throw err
-    } else {}
+    } else { }
 
     console.log('      ✅  index.js\n')
   })
@@ -154,7 +154,7 @@ function treePkg() {
   fs.writeFile('package.json', json, (err) => {
     if (err) {
       throw err
-    } else {}
+    } else { }
 
     console.log('      ✅  package.json\n')
   })
