@@ -38,7 +38,7 @@ const json = `{
 }
 `
 
-const commands = 'npm i parcel-bundler tailwindcss'
+const commands = 'npm i -D @fullhuman/postcss-purgecss autoprefixer@^9 parcel-bundler postcss@^7 tailwindcss@npm:@tailwindcss/postcss7-compat'
 
 function dependencies() {
   console.log('📦  Installing dependencies from NPM... this will take a bit.');
