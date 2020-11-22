@@ -6,28 +6,6 @@ const {
 
 const fs = require('fs')
 
-const config = `const purgecss = require('@fullhuman/postcss-purgecss')({
-
-  // Specify the paths to all of the template files in your project 
-  content: [
-    './src/**/*.html',
-    './src/**/*.vue',
-    './src/**/*.jsx',
-    // etc.
-  ],
-
-  // Include any special characters you're using in this regular expression
-  defaultExtractor: content => content.match(/[\\w-/:]+(?<!:)/g) || []
-})
-
-module.exports = {
-  plugins: [
-    require('tailwindcss'),
-    require('autoprefixer'),
-    ...process.env.NODE_ENV === 'production' ? [purgecss] : []
-  ]
-}`
-
 const html = `<!DOCTYPE html>
 <html lang="en">
 
@@ -44,23 +22,23 @@ const html = `<!DOCTYPE html>
 
 </html>`
 
-const css = `/* purgecss start ignore */
+const css = `
 @tailwind  base;
+
 @tailwind  components;
-/* purgecss end ignore */
 
 @tailwind  utilities;`
 
 const json = `{
   "scripts": {
-    "dev": "npx parcel src/index.html",
-    "prod": "npx parcel build src/index.html --public-url='./'",
-    "build": "npx parcel build src/index.html --public-url='./'"
+    "dev": "parcel src/index.html",
+    "prod": "parcel build src/index.html --public-url='./'",
+    "build": "parcel build src/index.html --public-url='./'"
   }
 }
 `
 
-const commands = 'npm i -D @fullhuman/postcss-purgecss autoprefixer parcel-bundler postcss tailwindcss'
+const commands = 'npm i parcel-bundler tailwindcss'
 
 function dependencies() {
   console.log('📦  Installing dependencies from NPM... this will take a bit.');
